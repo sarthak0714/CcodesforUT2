@@ -24,20 +24,3 @@ void main()
         printf("\nThe string is not a plaindrome.");
 
 }
-/*void plai(char a[]){
-    int l=0,i;
-    while(a[i]!='\0')
-    {
-        l++;
-    }
-    printf("The length of string is %d",l);
-    for(i=0;i<(l-1)/2;i++)
-    {
-        if(a[l-i-1]==a[i])
-        continue;
-        else
-        printf("\nThe string is not a plaindrome.");
-    }
-    if((l-1)/2==i)
-    printf("\nThe string is a plaindrome.");
-}*/
