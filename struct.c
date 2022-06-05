@@ -19,7 +19,7 @@ void main()
         for(j=0;j<=n-2;j++){
             if(c[j].r<c[j+1].r){
                 k=c[j];
-                c[j]=c[j=1];
+                c[j]=c[j+1];
                 c[j+1]=k;
 
             }
